@@ -4,22 +4,22 @@
     src: url(Quicksand-Medium.ttf);
 }
 
-/*Main Container*/
+/*MAIN CONTAINER*/
 .container
 {
     width: 1200px;
     margin: auto;
-    background-color: #EBECF2;
+    background-color: #EBECF2;  
 }
 
-/*Inner Container*/
+/*INNER CONTAINER*/
 .innercontainer
 {
     margin-left: 24px;
     margin-right: 24px; 
 }
 
-/*Navbar*/
+/*NAVBAR*/
 .navbar
 {
     height: 60px;
@@ -54,30 +54,46 @@
 }
 
 
-/*Dashboard*/
+/*DASHBOARD*/
 
 .dashboard
 {
     padding-top: 43px;
+    font-family: quicksand;
 }
 
 .citymall
 {
-    font-family: quicksand;
     font-size: 18px;
 }
 
 .dmenu
 {
-    padding-left: 836px;
+    float: right;
+    margin-right: 12px;
+}
+
+.box
+{
+    width: 270px;
+    margin-left:24px;
+    float:left;
+}
+
+.box:nth-child(1)
+{
+    margin-left:0px;    
 }
 
 .dashbox
 {
     color: rgba(255, 255, 255, 1);
-    font-family: quicksand;
     height: 110px;
-    width: 270px;
+}
+
+.dashdivmargin
+{
+    margin-top: 36px;
 }
 
 .leftbox
@@ -95,7 +111,6 @@
 
 .bottomleft
 {
-    
     padding-top: 34px;
     padding-left: 15px;
     font-size: 30px;
@@ -130,7 +145,76 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.dashboardpadding
+{
+    float: left;
+    margin-left: 24px;
+}
+
 .pink
 {
     background-color: #E81D62;
+}
+
+.green
+{
+    background-color: #8AC249;
+}
+
+.tasksimage
+{
+    padding-top: 34px;
+    padding-left: 28px;
+}
+
+.blue
+{
+    background-color: #2095F2;
+}
+
+.documentsimage
+{
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+/*MILESTONES SECTION*/
+
+.milestones
+{
+    margin-top: 55px;
+    font-family: quicksand;
+}
+
+.milestonecontrol
+{
+    float: right;
+}
+
+.lessthan
+{
+    margin-right: 27px;
+}
+
+.milestonedivmargin
+{
+    margin-top: 21px;
+}
+
+.milebox
+{
+    height: 226px;
+    width: 270px;
+    background-color: #FFFFFF;
+}
+
+.milestonetopbox
+{
+    color: #363F45;
+    height: 166px;
 }
