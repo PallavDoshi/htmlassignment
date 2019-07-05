@@ -1,0 +1,136 @@
+@font-face
+{
+    font-family:quicksand;
+    src: url(Quicksand-Medium.ttf);
+}
+
+/*Main Container*/
+.container
+{
+    width: 1200px;
+    margin: auto;
+    background-color: #EBECF2;
+}
+
+/*Inner Container*/
+.innercontainer
+{
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+/*Navbar*/
+.navbar
+{
+    height: 60px;
+    width: 1200px;
+    background-color: #384B59;
+}
+
+.leftbar
+{
+    padding-top: 10px;
+}
+
+.menu
+{
+    padding-left: 60px;
+}
+
+.rightbar
+{
+    float: right;
+}
+
+.rightbar li
+{   
+    float: left;
+    padding:11px;
+}
+
+.rightbar li:hover
+{
+    background-color: rgba(233, 233, 233, 0.1);
+}
+
+
+/*Dashboard*/
+
+.dashboard
+{
+    padding-top: 43px;
+}
+
+.citymall
+{
+    font-family: quicksand;
+    font-size: 18px;
+}
+
+.dmenu
+{
+    padding-left: 836px;
+}
+
+.dashbox
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: quicksand;
+    height: 110px;
+    width: 270px;
+}
+
+.leftbox
+{
+    float: left;
+}
+
+.topleft
+{
+    display: inline-block;
+    padding-top: 21px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.bottomleft
+{
+    
+    padding-top: 34px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.dashsmallbox
+{  
+    height: 110px;
+    width: 90px;
+    float: right;
+}
+
+.dollarimage
+{
+    padding-top: 34px;
+    padding-left: 33px;
+}
+
+.milestoneimage
+{
+    padding-top: 32px;
+    padding-left: 23px;
+}
+
+.yellow
+{
+    background-color: #FEC006;
+}
+
+.darkbox
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pink
+{
+    background-color: #E81D62;
+}
