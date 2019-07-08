@@ -4,6 +4,24 @@
     src: url(Quicksand-Medium.ttf);
 }
 
+@font-face
+{
+    font-family:quicksandbold;
+    src: url(Quicksand-Bold.ttf);
+}
+
+@font-face
+{
+    font-family:lato;
+    src: url(Lato-Regular.ttf);
+}
+
+@font-face
+{
+    font-family:latobold;
+    src: url(Lato-Bold.ttf);
+}
+
 /*MAIN CONTAINER*/
 .container
 {
@@ -23,7 +41,6 @@
 .navbar
 {
     height: 60px;
-    width: 1200px;
     background-color: #384B59;
 }
 
@@ -209,12 +226,214 @@
 .milebox
 {
     height: 226px;
-    width: 270px;
-    background-color: #FFFFFF;
 }
 
 .milestonetopbox
 {
     color: #363F45;
     height: 166px;
+    background-color: #FFFFFF;
+}
+
+.milestonecircle
+{
+    height: 87px;
+    width: 87px;
+    background-color: #F6EFD2;
+    margin-top: 38px;
+    margin-left: 90px;
+    border:solid 2px white;
+    border-radius: 50%;    
+}
+
+.milestonevalue
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 12px;
+    height: 38px;
+}
+
+.milestonepercent
+{
+    font-size: 16px;
+    text-align: center;
+}
+
+.shadowgreen
+{
+    box-shadow: 0 0 0 10px #8AC249;
+}
+
+.shadowyellow
+{
+    box-shadow: 0 0 0 10px #FEC006;
+}
+
+.shadowclear
+{
+    box-shadow: 0 0 0 10px #F1F1F1;
+}
+
+.milestonebottombox
+{
+    color: #363F45;
+    height: 59px;
+    margin-top: 1px;
+    background-color: #FFFFFF;
+    width: 270px;
+    float:left;
+}
+
+/* PROGRESSBAR */
+
+.progressbar
+{
+    margin-top: 31px;
+    background-color: #F5F5F5; 
+    height: 9px;
+    border-radius: 4.5px;
+}
+
+.progressbarfill
+{
+    background-color: #D4C69B;
+    height: 5px;
+    border-radius: 2.5px;
+    margin: auto;
+    width: 299px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+/* RECENT TASKS AND WORK STATUS */
+
+.taskstatus
+{
+    margin-top: 69px;
+}
+
+/* TASK */
+
+.task
+{
+    float: left;
+    width: 564px;
+    height: 339px;
+    font-family: lato;
+    color: #919599;
+}
+
+.taskstatusinnercontainer
+{
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+.taskbox
+{
+    background-color: #FFFFFF;
+    height: 56px;
+}
+
+.taskpadding
+{
+    margin-top: 0.2%;
+}
+
+.taskpadding:nth-child(1)
+{
+    margin-top: 0%;
+}
+
+.taskstatusheader
+{
+    font-family: quicksandbold;
+    font-size: 16px;
+    color: #363F45;
+    margin-top: 18px;
+    float: left;
+}
+
+.taskstatusmenu
+{
+    float: right;
+    margin-top: 19px;
+}
+
+.taskcontentpadding
+{
+    font-size: 14px;
+    float: left;
+    padding-top: 20px;
+}
+
+.taskdatepadding
+{
+    float: right;
+    padding-top: 20px;
+    font-size: 12px;
+    margin-right: 26px;
+    text-align: center;
+}
+
+.tasktopdate
+{
+    text-align: center;
+}
+
+.checkbox
+{
+    margin-top: 20px;
+    float: right;
+    border: solid 1px #CED4D9;
+    height: 17px;
+    width: 17px;
+}
+
+.tick
+{
+    margin-top: 21px;
+    float: right;
+}
+
+/* STATUS */
+
+.status
+{
+    float: right;
+    width: 564px;
+    height: 339px;
+    font-family: latobold;
+    color: #363F45;
+}
+
+.taskborder
+{
+    /* border-bottom: 1px solid #EBECF2; */
+    margin-top: 1px;
+}
+
+.statusbottombox
+{
+    height: 282px;
+    background-color: #FFFFFF;
+}
+
+/* FOOTER */
+
+.footmargin
+{
+    font-family: lato;
+    margin-top: 111px;
+    height: 44px;
+    background-color: #384B59;
+    color: #9CAAB4;
+}
+
+.foottext
+{
+    margin-top: 15px;
+    float: right;    
 }
