@@ -1,3 +1,9 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* FONTS */
 @font-face
 {
     font-family:quicksand;
@@ -38,49 +44,109 @@
 }
 
 /*NAVBAR*/
+.clearfix
+{
+    clear: both;
+}
+
 .navbar
 {
     height: 60px;
     background-color: #384B59;
 }
 
-.leftbar
+.navbarpadding
 {
     padding-top: 10px;
 }
 
-.menu
+.navbarmenu
 {
-    padding-left: 60px;
+    margin-left: 60px;
 }
 
-.rightbar
+.navbarright
 {
     float: right;
 }
 
-.rightbar li
-{   
+.navbarright li
+{
     float: left;
-    padding:11px;
 }
 
-.rightbar li:hover
+.navbarright a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.navbarright a:hover
 {
     background-color: rgba(233, 233, 233, 0.1);
 }
 
+.navbarright img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.notifications
+{
+    margin-top: 12px;
+}
+
+.dimensions
+{
+    height: 17px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative
+{
+    position: relative;
+}
+
+.notificationscircle
+{
+    height: 19px;
+    width: 19px;
+    background-color: #FE5621;
+    border-radius: 50%;    
+    position: absolute;
+    left: 11px;
+    bottom: 10px;
+    color: #FFFFFF;
+    size: 14px;
+    font-family: lato;
+    text-align: center;
+}
+
+.settings
+{
+    margin-top: 10px;
+}
+
+.search
+{
+    margin-top: 11px;
+}
 
 /*DASHBOARD*/
-
 .dashboard
 {
-    padding-top: 43px;
+    margin-top: 43px;
     font-family: quicksand;
 }
 
 .citymall
 {
+    display: inline-block;
     font-size: 18px;
 }
 
@@ -88,6 +154,11 @@
 {
     float: right;
     margin-right: 12px;
+}
+
+.dashmargin
+{
+    margin-top: 36px;
 }
 
 .box
@@ -106,11 +177,6 @@
 {
     color: rgba(255, 255, 255, 1);
     height: 110px;
-}
-
-.dashdivmargin
-{
-    margin-top: 36px;
 }
 
 .leftbox
@@ -133,11 +199,12 @@
     font-size: 30px;
 }
 
-.dashsmallbox
+.rightbox
 {  
     height: 110px;
     width: 90px;
     float: right;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .dollarimage
@@ -155,11 +222,6 @@
 .yellow
 {
     background-color: #FEC006;
-}
-
-.darkbox
-{
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .dashboardpadding
@@ -195,13 +257,7 @@
     padding-left: 24px;
 }
 
-.clearfix
-{
-    clear: both;
-}
-
 /*MILESTONES SECTION*/
-
 .milestones
 {
     margin-top: 55px;
@@ -218,7 +274,7 @@
     margin-right: 27px;
 }
 
-.milestonedivmargin
+.milestonemargin
 {
     margin-top: 21px;
 }
@@ -228,7 +284,7 @@
     height: 226px;
 }
 
-.milestonetopbox
+.topbox
 {
     color: #363F45;
     height: 166px;
@@ -286,20 +342,19 @@
 }
 
 /* PROGRESSBAR */
-
 .progressbar
 {
     margin-top: 31px;
     background-color: #F5F5F5; 
     height: 9px;
-    border-radius: 4.5px;
+    border-radius: 4px;
 }
 
 .progressbarfill
 {
     background-color: #D4C69B;
     height: 5px;
-    border-radius: 2.5px;
+    border-radius: 2px;
     margin: auto;
     width: 299px;
     float: left;
@@ -308,27 +363,19 @@
 }
 
 /* RECENT TASKS AND WORK STATUS */
-
 .taskstatus
 {
     margin-top: 69px;
+    height: 341px;
 }
 
 /* TASK */
-
 .task
 {
     float: left;
     width: 564px;
-    height: 339px;
     font-family: lato;
     color: #919599;
-}
-
-.taskstatusinnercontainer
-{
-    margin-left: 30px;
-    margin-right: 30px; 
 }
 
 .taskbox
@@ -337,14 +384,25 @@
     height: 56px;
 }
 
+.taskbox:nth-child(3)
+{
+    background-color: #E1F5E3;
+}
+
 .taskpadding
 {
-    margin-top: 0.2%;
+    margin-top: 1px;
 }
 
 .taskpadding:nth-child(1)
 {
-    margin-top: 0%;
+    margin-top: 0px;
+}
+
+.taskstatusinnercontainer
+{
+    margin-left: 30px;
+    margin-right: 30px; 
 }
 
 .taskstatusheader
@@ -369,13 +427,17 @@
     padding-top: 20px;
 }
 
+.greentext
+{
+    color:#4BAE4F;
+}
+
 .taskdatepadding
 {
     float: right;
     padding-top: 20px;
     font-size: 12px;
     margin-right: 26px;
-    text-align: center;
 }
 
 .tasktopdate
@@ -399,30 +461,117 @@
 }
 
 /* STATUS */
-
 .status
 {
     float: right;
     width: 564px;
-    height: 339px;
     font-family: latobold;
     color: #363F45;
 }
 
-.taskborder
+.statusbottom
 {
-    /* border-bottom: 1px solid #EBECF2; */
-    margin-top: 1px;
-}
-
-.statusbottombox
-{
-    height: 282px;
+    padding-top: 32px;
+    height: 284px;
     background-color: #FFFFFF;
 }
 
-/* FOOTER */
+.statusbox
+{
+    height: 38px;
+}
 
+.statusmargin
+{
+    margin-top: 41px;
+}
+
+.statuscontent
+{
+    float: left;
+    padding-top: 19px;
+}
+
+.statusbar
+{
+    float: right;
+    width: 332px;
+    height: 9px;
+    background-color: #E1E2E6;
+    border-radius: 4px;
+    margin-top: 28px;
+}
+
+.statusbarfill
+{
+    background-color: #5FCCC1;
+    height: 9px;
+    border-radius: 4px;
+    margin: auto;
+    float: left;
+}
+
+.fill1
+{
+    width: 152px;
+}
+
+.fill2
+{
+    width: 192px;
+}
+
+.fill3
+{
+    width: 114px;
+}
+
+.chatsquare
+{
+    height: 19px;
+    width: 32px;
+    background-color: #5FCCC1;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 3px;
+}
+
+.absolute1
+{
+    position: absolute;
+    top: -24px;
+    left: 133px;
+}
+
+.absolute2
+{
+    position: absolute;
+    top: -24px;
+    left: 173px;
+}
+
+.absolute3
+{
+    position: absolute;
+    top: -24px;
+    left: 95px;
+}
+
+.chatarrow
+{
+    width: 0; 
+    height: 0; 
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 3px solid #5FCCC1;
+    position: absolute;
+    bottom: -3px;
+    left: 14px;
+}
+
+/* FOOTER */
 .footmargin
 {
     font-family: lato;
