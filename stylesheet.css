@@ -51,7 +51,7 @@
 
 .navbar
 {
-    height: 60px;
+    /* height: 60px; */
     background-color: #384B59;
 }
 
@@ -289,6 +289,7 @@
     color: #363F45;
     height: 166px;
     background-color: #FFFFFF;
+    padding-top: 38px;
 }
 
 .milestonecircle
@@ -296,7 +297,6 @@
     height: 87px;
     width: 87px;
     background-color: #F6EFD2;
-    margin-top: 38px;
     margin-left: 90px;
     border:solid 2px white;
     border-radius: 50%;    
@@ -307,7 +307,8 @@
     font-size: 30px;
     text-align: center;
     padding-top: 12px;
-    height: 38px;
+    line-height: 30px;
+    
 }
 
 .milestonepercent
@@ -338,7 +339,25 @@
     margin-top: 1px;
     background-color: #FFFFFF;
     width: 270px;
-    float:left;
+}
+
+.milestone
+{
+    font-family: lato;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 57px;
+    float: right;
+}
+
+.milestonenumber
+{
+    font-family: quicksandbold;
+    font-size: 34px;
+    padding-top: 9px;
+    padding-right: 22px;
+    color: #E1E2E9;
+    float: right;
 }
 
 /* PROGRESSBAR */
