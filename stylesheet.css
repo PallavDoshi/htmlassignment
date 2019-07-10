@@ -557,25 +557,19 @@
     padding-left: 3px;
 }
 
-.absolute1
+.hoverposition
 {
-    position: absolute;
-    top: -24px;
-    left: 133px;
+    /* background-color: red; */
+    height: 9px;
+    width: 9px;
+    float: right;
 }
 
-.absolute2
+.absolute
 {
     position: absolute;
     top: -24px;
-    left: 173px;
-}
-
-.absolute3
-{
-    position: absolute;
-    top: -24px;
-    left: 95px;
+    left: -11px;
 }
 
 .chatarrow
