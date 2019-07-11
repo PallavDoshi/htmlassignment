@@ -178,7 +178,6 @@
 
 .rightbox
 {  
-    height: 110px;
     width: 90px;
     float: right;
     background-color: rgba(0, 0, 0, 0.1);
@@ -248,9 +247,10 @@
 .topbox
 {
     color: #363F45;
-    height: 166px;
     background-color: #FFFFFF;
     padding-top: 38px;
+    text-align: center;
+    height: 166px;
 }
 
 .milestonecircle
@@ -258,7 +258,7 @@
     height: 87px;
     width: 87px;
     background-color: #F6EFD2;
-    margin-left: 90px;
+    margin: auto;
     border:solid 2px white;
     border-radius: 50%;    
 }
