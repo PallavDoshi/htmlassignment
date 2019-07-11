@@ -300,6 +300,7 @@
     margin-top: 1px;
     background-color: #FFFFFF;
     width: 270px;
+    line-height: 59px;
 }
 
 .milestone
@@ -307,9 +308,7 @@
     font-family: lato;
     font-weight: 400;
     font-size: 16px;
-    padding-top: 20px;
-    padding-right: 57px;
-    float: right;
+    text-align: center;
 }
 
 .milestonenumber
@@ -317,10 +316,14 @@
     font-family: quicksand;
     font-weight: 700;
     font-size: 34px;
-    padding-top: 9px;
-    padding-right: 22px;
     color: #E1E2E9;
     float: right;
+}
+
+.milestonecontainer
+{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /* PROGRESSBAR */
