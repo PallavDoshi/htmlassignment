@@ -182,18 +182,13 @@
     width: 90px;
     float: right;
     background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 110px;
 }
 
-.dollarimage
+.dashboardimage
 {
-    padding-top: 34px;
-    padding-left: 33px;
-}
-
-.milestoneimage
-{
-    padding-top: 32px;
-    padding-left: 23px;
+    vertical-align: middle;
 }
 
 .yellow
@@ -217,21 +212,9 @@
     background-color: #8AC249;
 }
 
-.tasksimage
-{
-    padding-top: 34px;
-    padding-left: 28px;
-}
-
 .blue
 {
     background-color: #2095F2;
-}
-
-.documentsimage
-{
-    padding-top: 32px;
-    padding-left: 24px;
 }
 
 /*MILESTONES SECTION*/
