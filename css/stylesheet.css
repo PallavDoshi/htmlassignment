@@ -3,31 +3,6 @@
     box-sizing: border-box;
 }
 
-/* FONTS */
-@font-face
-{
-    font-family:quicksand;
-    src: url(Quicksand-Medium.ttf);
-}
-
-@font-face
-{
-    font-family:quicksandbold;
-    src: url(Quicksand-Bold.ttf);
-}
-
-@font-face
-{
-    font-family:lato;
-    src: url(Lato-Regular.ttf);
-}
-
-@font-face
-{
-    font-family:latobold;
-    src: url(Lato-Bold.ttf);
-}
-
 /*MAIN CONTAINER*/
 .container
 {
@@ -124,6 +99,7 @@
     color: #FFFFFF;
     size: 14px;
     font-family: lato;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -142,6 +118,7 @@
 {
     margin-top: 43px;
     font-family: quicksand;
+    font-weight: 500;
 }
 
 .citymall
@@ -262,6 +239,7 @@
 {
     margin-top: 55px;
     font-family: quicksand;
+    font-weight: 500;
 }
 
 .milestonecontrol
@@ -344,6 +322,7 @@
 .milestone
 {
     font-family: lato;
+    font-weight: 400;
     font-size: 16px;
     padding-top: 20px;
     padding-right: 57px;
@@ -352,7 +331,8 @@
 
 .milestonenumber
 {
-    font-family: quicksandbold;
+    font-family: quicksand;
+    font-weight: 700;
     font-size: 34px;
     padding-top: 9px;
     padding-right: 22px;
@@ -394,6 +374,7 @@
     float: left;
     width: 564px;
     font-family: lato;
+    font-weight: 400;
     color: #919599;
 }
 
@@ -426,7 +407,8 @@
 
 .taskstatusheader
 {
-    font-family: quicksandbold;
+    font-family: quicksand;
+    font-weight: 700;
     font-size: 16px;
     color: #363F45;
     margin-top: 18px;
@@ -484,7 +466,8 @@
 {
     float: right;
     width: 564px;
-    font-family: latobold;
+    font-family: lato;
+    font-weight: 700;
     color: #363F45;
 }
 
@@ -588,6 +571,7 @@
 .footmargin
 {
     font-family: lato;
+    font-weight: 400;
     margin-top: 111px;
     height: 44px;
     background-color: #384B59;
