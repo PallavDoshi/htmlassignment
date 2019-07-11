@@ -74,14 +74,6 @@
     margin-top: 12px;
 }
 
-.dimensions
-{
-    height: 17px;
-    width: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .relative
 {
     position: relative;
@@ -94,8 +86,8 @@
     background-color: #FE5621;
     border-radius: 50%;    
     position: absolute;
-    left: 11px;
-    bottom: 10px;
+    left: 21px;
+    bottom: 20px;
     color: #FFFFFF;
     size: 14px;
     font-family: lato;
@@ -333,6 +325,7 @@
     background-color: #F5F5F5; 
     height: 9px;
     border-radius: 4px;
+    padding-top: 2px;
 }
 
 .progressbarfill
@@ -342,8 +335,6 @@
     border-radius: 2px;
     margin: auto;
     width: 299px;
-    float: left;
-    margin-top: 2px;
     margin-left: 2px;
 }
 
@@ -488,6 +479,7 @@
     background-color: #E1E2E6;
     border-radius: 4px;
     margin-top: 28px;
+    position: relative;
 }
 
 .statusbarfill
@@ -497,21 +489,7 @@
     border-radius: 4px;
     margin: auto;
     float: left;
-}
-
-.fill1
-{
-    width: 152px;
-}
-
-.fill2
-{
-    width: 192px;
-}
-
-.fill3
-{
-    width: 114px;
+    position: relative;
 }
 
 .chatsquare
@@ -524,33 +502,22 @@
     font-size: 12px;
     padding-top: 2px;
     padding-left: 3px;
-}
-
-.hoverposition
-{
-    /* background-color: red; */
-    height: 9px;
-    width: 9px;
-    float: right;
-}
-
-.absolute
-{
     position: absolute;
-    top: -24px;
-    left: -11px;
+    top: -25px;
+    right: -12px;
 }
 
-.chatarrow
+.chatsquare::after
 {
     width: 0; 
     height: 0; 
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-top: 3px solid #5FCCC1;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-top: 4px solid #5FCCC1;
     position: absolute;
-    bottom: -3px;
-    left: 14px;
+    bottom: -4px;
+    left: 12px;
+    content: "";
 }
 
 /* FOOTER */
@@ -566,4 +533,3 @@ footer
     text-align: right;
     padding-top: 15px;
 }
-
