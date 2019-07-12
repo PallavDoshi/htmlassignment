@@ -301,6 +301,7 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    padding-left: 39px;
 }
 
 .milestonenumber
@@ -310,12 +311,7 @@
     font-size: 34px;
     color: #E1E2E9;
     float: right;
-}
-
-.milestonecontainer
-{
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-right: 20px;
 }
 
 /* PROGRESSBAR */
@@ -413,14 +409,16 @@
 .taskdatepadding
 {
     float: right;
-    padding-top: 20px;
-    font-size: 12px;
+    padding-top: 13px;
+    font-size: 13px;
     margin-right: 26px;
+    line-height: 18px;
 }
 
 .tasktopdate
 {
     text-align: center;
+    line-height: 13px;
 }
 
 .checkbox
